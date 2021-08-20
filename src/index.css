@@ -216,10 +216,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 500px;
+  max-width: 50%;
   text-align: center;
-  margin: 1rem;
-  max-height: 600px;
+  margin-bottom: 10%;
+  max-height: 50%;
+  transition: all 0.3s ease;
+}
+
+.servicesSkillsLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 50px;
+  text-align: center;
+  margin-left: 7%;
+  margin-top: 3%;
+  max-height: 50px;
   transition: all 0.3s ease;
 }
 
@@ -278,6 +290,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  margin-top: 20%;
   min-height: 100vh;
 }
 
