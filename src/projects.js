@@ -3,28 +3,39 @@ import emoji from "react-easy-emoji";
 export const projects = [
     {
         storeName:"ClothingVibe",
+        desc: "React, Nextjs, Redux/Saga, Stripe Payment, Firebase",
         storeLink:"https://clothing-4a6e8.web.app/",
         githubLink:"https://github.com/alinasir85/clothingVibe"
     },
     {
         storeName:"MobVibe",
+        desc: "React, Nextjs",
         storeLink:"https://mobvibe-d3b3e.web.app/",
         githubLink:"https://github.com/alinasir85/mobVibe"
     },
     {
         storeName:"VisionVibe",
+        desc: "React, Redux/Saga, Stripe Payment, Firebase",
         storeLink:"https://visionvibe-cf851.web.app/",
         githubLink:"https://github.com/alinasir85/VisionVibe"
     },
     {
         storeName:"BurgerVibe",
+        desc: "React, Redux/Saga, Firebase",
         storeLink:"https://burgervibe-f52a7.web.app/",
         githubLink:"https://github.com/alinasir85/BurgerVibe"
     },
     {
         storeName:"ChristianMusic",
+        desc: "React, Soundcloud & Google Maps Api",
         storeLink:"https://christianmaxmusic.github.io/Portfolio/",
         githubLink:"https://github.com/ChristianMaxMusic/Portfolio"
+    },
+    {
+        storeName:"Medicure",
+        desc: "React, Redux/Saga, Stripe Payment, Firebase",
+        storeLink:"https://medicure-84583.web.app/",
+        githubLink:"https://github.com/timfirebase/medicure"
     }
 ];
 
@@ -38,7 +49,7 @@ export const skillsSection = {
             "⚡ Highly interactive User Interfaces"
         ),
         emoji(
-            "⚡ Progressive Web Applications"
+            "⚡ Making the web applications secure, efficient and easier for the user"
         ),
         emoji(
             "⚡ Integration of third party services such as Firebase/ AWS / Google APIs"

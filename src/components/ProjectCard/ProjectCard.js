@@ -25,8 +25,9 @@ const ProjectCard = (props) => {
             </a>
 
             <div className="project-links">
-                <div className="text">
-                    <h3>{props.storeName}</h3>
+                <div>
+                    <h4 style={{paddingTop:'3%'}}>{props.storeName}</h4>
+                    <h6 style={{paddingBottom:'4%',paddingTop:'2%'}}>{props.desc}</h6>
                 </div>
                 <div className="icons">
                     <a
